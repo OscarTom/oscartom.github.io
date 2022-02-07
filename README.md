@@ -4,4 +4,4 @@ Repositorio del proyecto de maquetacion para portafolio.
 
 ## Proyectos
 
-- [Landing Page de tipo portafolio cv](https://OscarTom.github.io/portafolio-cv)
+- [Landing Page de tipo portafolio cv](https://OscarTom.github.io)
