@@ -664,6 +664,14 @@ progress::-moz-progress-bar {
 
 
 @media screen and (min-width:768px) { /* Media queri para version tablet */
+
+    .about {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: space-between;
+        align-content: center;
+    }
+
     .container {
         max-width: var(--max-width);
     }
