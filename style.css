@@ -285,6 +285,20 @@ progress::-moz-progress-bar {
 }
 
 /* ********** Hero Image ********** */
+
+.hero-image-content > p {
+    color: var(--white-color);
+    max-width: 680px;
+    text-align: left;
+    padding: 0rem 1rem;
+}
+
+.hero-image-content > aside {
+    color: var(--white-color);
+    text-align: right;
+    padding: 0rem 1rem;
+}
+
 .hero-image {
     background-image: var(--hero-image); /* Variable definida en el html */
     background-repeat: no-repeat;
@@ -701,14 +715,14 @@ progress::-moz-progress-bar {
         align-self: center;
     }
 
-    .services > .container {
+    .estudios > .container {
         display: grid;
         grid-template-columns: repeat(2, 45%);
         justify-content: space-between;
         align-content: center;
     }
 
-    .services .section-title {
+    .estudios .section-title {
         grid-column: span 2;
     }
 }
@@ -745,11 +759,11 @@ progress::-moz-progress-bar {
         grid-column: span 3;
     }
 
-    .services > .container {
+    .estudios > .container {
         grid-template-columns: repeat(3, 30%);
     }
 
-    .services .section-title {
+    .estudios .section-title {
         grid-column: span 3;
     }
 }
